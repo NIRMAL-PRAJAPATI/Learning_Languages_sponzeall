@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <title>camplaint | sponzeall.com</title>
+    <link rel="icon" type="image/x-icon" href="sponzeall_icon.png">
+
+    <style>
+        #lines {
+            height: 35px;
+            margin: 10px -20px 10px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid row">
+        <!-- slidebar -->
+        <div class="col flex-shrink-0 p-3 text-bg-dark d-none d-md-block col-lg-4 col-md-4"
+            style="width: 280px; height: 100%;" data-bs-theme="dark">
+            <a href="/"
+                class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
+                <svg class="bi pe-none me-2" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+                <span class="fs-5 fw-semibold"><img src="sponzeall_icon.png" width="35px"> Sponzeall</span>
+            </a>
+            <ul class="list-unstyled ps-0">
+
+                <!-- java part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                        <img src="more.png" width="17px">&nbsp;JAVA
+                    </button>
+                    <div class="collapse show" id="home-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+
+                            <li><a href="#"
+                                    class="fs-6 link-body-emphasis d-inline-flex text-decoration-none rounded">Introduction</a>
+                            </li>
+
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded btn btn-toggle d-inline-flex align-items-center rounded border-0"
+                                    data-bs-toggle="#order-collapse" data-bs-target="#dashboard-collapse"
+                                    aria-expanded="false">Operators</a>
+                                <div class="collapse1" id="order-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-4">
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Arithmetic
+                                                operator</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Logical
+                                                operator</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Turnary
+                                                operator</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">mathematical
+                                                operator</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Bitwise
+                                                operator</a></li>
+                                    </ul>
+                                </div>
+                            </li><br>
+
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded btn btn-toggle d-inline-flex align-items-center rounded border-0"
+                                    data-bs-toggle="#order-collapse" data-bs-target="#dashboard-collapse"
+                                    aria-expanded="false">Loops</a>
+                                <div class="collapse1" id="order-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-4">
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">for
+                                                loop</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">do
+                                                while loop</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">for
+                                                each loop</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">nasted
+                                                for loop</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded"></a>while
+                                            loop</li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">switch
+                                                case</a></li>
+                                    </ul>
+                                </div>
+                            </li><br>
+
+                            <!-- bootstrap -->
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded btn btn-toggle d-inline-flex align-items-center rounded border-0"
+                                    data-bs-toggle="#order-collapse" data-bs-target="#dashboard-collapse"
+                                    aria-expanded="false">Classes</a>
+                                <div class="collapse1" id="order-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-4">
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">creating
+                                                class</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">extending
+                                                class</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">implementing
+                                                class</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">class
+                                                types</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Forms</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li><br>
+
+                            <!-- exception -->
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded btn btn-toggle d-inline-flex align-items-center rounded border-0"
+                                    data-bs-toggle="#order-collapse" data-bs-target="#dashboard-collapse"
+                                    aria-expanded="false">Exceptions</a>
+                                <div class="collapse1" id="order-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-4">
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">types
+                                                of exception</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">exception
+                                                handling</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">examples</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li><br>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- toggle icon -->
+        <div class="container row d-md-none">
+            <h2 class="col" style="margin: 10px;">Sponzeall</h2>
+            <a class="col-2" data-bs-toggle="offcanvas" href="#offcanvasWithBothOptions" role="button"
+                aria-controls="offcanvasWithBothOptionsLabel">
+                <img id="lines" src="menu.png">
+            </a>
+        </div>
+
+        <!-- popup slider -->
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel" data-bs-theme="dark" style="overflow: scroll;">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><img src="sponzeall.png" height="25px"
+                        width="180px"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <ul class="list-unstyled ps-0" data-bs-theme="dark">
+
+                <!-- java part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                        <img src="more.png" width="17px">&nbsp;JAVA
+                    </button>
+                    <div class="collapse show" id="home-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-4">
+
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Introduction</a>
+                            </li>
+
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded btn btn-toggle d-inline-flex align-items-center rounded border-0"
+                                    data-bs-toggle="#order-collapse" data-bs-target="#dashboard-collapse"
+                                    aria-expanded="false">Operators</a>
+                                <div class="collapse1" id="order-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-4">
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Arithmetic
+                                                operator</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Logical
+                                                operator</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Turnary
+                                                operator</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">mathematical
+                                                operator</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Bitwise
+                                                operator</a></li>
+                                    </ul>
+                                </div>
+                            </li><br>
+
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded btn btn-toggle d-inline-flex align-items-center rounded border-0"
+                                    data-bs-toggle="#order-collapse" data-bs-target="#dashboard-collapse"
+                                    aria-expanded="false">Loops</a>
+                                <div class="collapse1" id="order-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-4">
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">for
+                                                loop</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">do
+                                                while loop</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">for
+                                                each loop</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">nasted
+                                                for loop</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded"></a>while
+                                            loop</li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">switch
+                                                case</a></li>
+                                    </ul>
+                                </div>
+                            </li><br>
+
+                            <!-- classes -->
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded btn btn-toggle d-inline-flex align-items-center rounded border-0"
+                                    data-bs-toggle="#order-collapse" data-bs-target="#dashboard-collapse"
+                                    aria-expanded="false">Classes</a>
+                                <div class="collapse1" id="order-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-4">
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">creating
+                                                class</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">extending
+                                                class</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">implementing
+                                                class</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">class
+                                                types</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Forms</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li><br>
+
+                            <!-- exception -->
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded btn btn-toggle d-inline-flex align-items-center rounded border-0"
+                                    data-bs-toggle="#order-collapse" data-bs-target="#dashboard-collapse"
+                                    aria-expanded="false">Exceptions</a>
+                                <div class="collapse1" id="order-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-4">
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">types
+                                                of exception</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">exception
+                                                handling</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">examples</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li><br>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col">
+            <!-- heading -->
+            <div class="d-flex align-items-center px-3 py-2 my-3 text-white bg-purple rounded shadow-sm text-bg-dark">
+                <img class="me-3" src="java.png" alt="" width="48" height="40">
+                <div class="lh-1">
+                    <h1 class="h5 mb-0 text-white lh-1">JAVA Language</h1>
+                </div>
+            </div>
+
+            <!-- java types -->
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-primary-emphasis">Part 1</strong>
+                            <h3 class="mb-0">Core JAVA</h3>
+                            <div class="mb-1 text-body-secondary">Basic Concepts</div>
+                            <p class="card-text mb-auto">The word Core describes the basic concept of something, and
+                                here, the phrase 'Core Java' defines the basic Java that covers the basic concept of
+                                Java programming language.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative text-bg-dark">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-emphasis">Part 2</strong>
+                            <h3 class="mb-0">Advance JAVA</h3>
+                            <div class="mb-1">Advance Concepts</div>
+                            <p class="mb-auto">Advanced Java covers the standard concepts such as database connectivity,
+                                networking, Servlet, web-services, etc. All in all, we have to improve our basic
+                                knowledge to master in that field.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- content part -->
+            <div class="container">
+                <img width="80%" src="java-poster.png">
+                <p>This Java programming tutorial is designed for beginners as well experienced professionals. Whether
+                    you’re looking to learn the basics of Java or its advanced concepts, our Java tutorial is the
+                    perfect resource for you.</p>
+                <br>
+                <h4>What is Java?</h4>
+                <p>Java is a most popular, object-oriented, widely used programming language and platform that is
+                    utilized for Android development, web development, artificial intelligence, cloud applications, and
+                    much more. So, mastering this gives you great opportunities in bigger organizations.</p><br>
+
+                <h4>Object Orianted Programming</h4>
+                <p>Java program is an object-oriented programming language, that means java is the collection of
+                    objects, and these objects communicate through method calls to each other to work together. Here is
+                    a brief discussion on the Classes and Objects, Method, Instance variables, syntax, and semantics of
+                    Java.</p>
+
+                <p><b>1. Class:</b> The class is a blueprint (plan) of the instance of a class (object). It can be
+                    defined as a logical template that share common properties and methods.
+                    <li>Example1: Blueprint of the house is class.</li>
+                    <li>Example2: In real world, Alice is an object of the “Human” class.</li>
+                </p>
+
+                <p><b>2. Object:</b> The object is an instance of a class. It is an entity that has behavior and state.
+                    <li>Example: Dog, Cat, Monkey etc. are the object of “Animal” class.</li>
+                    <li>Behavior: Running on the road.</li>
+                </p>
+
+                <p><b>3. Method: </b>The behavior of an object is the method.
+                    <li>Example: The fuel indicator indicates the amount of fuel left in the car.</li>
+                </p>
+
+                <p><b>4. Instance variables:</b> Every object has its own unique set of instance variables. The state of
+                    an object is generally created by the values that are assigned to these instance variables.
+                    <li>Example: Steps to compile and run a java program in a console</li>
+                </p>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

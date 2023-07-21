@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <title>camplaint | sponzeall.com</title>
+    <link rel="icon" type="image/x-icon" href="sponzeall_icon.png">
+
+    <style>
+        #lines {
+            height: 35px;
+            margin: 10px -20px 10px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class=" container-fluid row">
+        <!-- slidebar -->
+        <div class="col flex-shrink-0 p-3 text-bg-dark d-none d-md-block col-lg-4 col-md-4"
+            style="width: 300px; height: 100%;" data-bs-theme="dark">
+            <a href="/"
+                class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
+                <svg class="bi pe-none me-2" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+                <span class="fs-5 fw-semibold"><img src="sponzeall_icon.png" width="35px"> Sponzeall</span>
+            </a>
+            <ul class="list-unstyled ps-0">
+
+                <!-- java part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                        <img src="more.png" width="17px">&nbsp;JAVA
+                    </button>
+                    <div class="collapse" id="home-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-4">
+
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Introduction</a>
+                            </li>
+
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded btn btn-toggle d-inline-flex align-items-center rounded border-0"
+                                    data-bs-toggle="#order-collapse" data-bs-target="#dashboard-collapse"
+                                    aria-expanded="false">Operators</a>
+                                <div class="collapse1" id="order-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-4">
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Arithmetic
+                                                operator</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Logical
+                                                operator</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Turnary
+                                                operator</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">mathematical
+                                                operator</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Bitwise
+                                                operator</a></li>
+                                    </ul>
+                                </div>
+                            </li><br>
+
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded btn btn-toggle d-inline-flex align-items-center rounded border-0"
+                                    data-bs-toggle="#order-collapse" data-bs-target="#dashboard-collapse"
+                                    aria-expanded="false">Loops</a>
+                                <div class="collapse1" id="order-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-4">
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">for
+                                                loop</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">do
+                                                while loop</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">for
+                                                each loop</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">nasted
+                                                for loop</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded"></a>while
+                                            loop</li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">switch
+                                                case</a></li>
+                                    </ul>
+                                </div>
+                            </li><br>
+
+                            <!-- bootstrap -->
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded btn btn-toggle d-inline-flex align-items-center rounded border-0"
+                                    data-bs-toggle="#order-collapse" data-bs-target="#dashboard-collapse"
+                                    aria-expanded="false">Classes</a>
+                                <div class="collapse1" id="order-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-4">
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">creating
+                                                class</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">extending
+                                                class</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">implementing
+                                                class</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">class
+                                                types</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Forms</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li><br>
+
+                            <!-- exception -->
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded btn btn-toggle d-inline-flex align-items-center rounded border-0"
+                                    data-bs-toggle="#order-collapse" data-bs-target="#dashboard-collapse"
+                                    aria-expanded="false">Exceptions</a>
+                                <div class="collapse1" id="order-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-4">
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">types
+                                                of exception</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">exception
+                                                handling</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">examples</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li><br>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- python part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                        <img src="more.png" width="17px">&nbsp;Python
+                    </button>
+                    <div class="collapse" id="dashboard-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded btn btn-toggle d-inline-flex align-items-center rounded border-0"
+                                    data-bs-toggle="#order-collapse" data-bs-target="#dashboard-collapse"
+                                    aria-expanded="false">OOPs concept</a>
+                                <div class="collapse1" id="order-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">classes</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">examples</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Shipped</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Returned</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Monthly</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Annually</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- php part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                        <img src="more.png" width="17px">&nbsp;PHP
+                    </button>
+                    <div class="collapse" id="orders-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">New</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Processed</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Shipped</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Returned</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- javascript part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#aad-collapse" aria-expanded="true">
+                        <img src="more.png" width="17px">&nbsp;JavaScript
+                    </button>
+                    <div class="collapse" id="aad-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Updates</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Reports</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- kotlin part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#ios-collapse" aria-expanded="true">
+                        <img src="more.png" width="17px">&nbsp;Kotlin
+                    </button>
+                    <div class="collapse" id="ios-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Updates</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Reports</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- HTML part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#athical-collapse" aria-expanded="true">
+                        <img src="more.png" width="17px">&nbsp;HTML
+                    </button>
+                    <div class="collapse" id="athical-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Updates</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Reports</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- CSS part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#athical-collapse" aria-expanded="true">
+                        <img src="more.png" width="17px">&nbsp;CSS
+                    </button>
+                    <div class="collapse" id="athical-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Updates</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Reports</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- ruby part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#athical-collapse" aria-expanded="true">
+                        <img src="more.png" width="17px">&nbsp;Ruby
+                    </button>
+                    <div class="collapse" id="athical-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Updates</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Reports</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- c part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#athical-collapse" aria-expanded="true">
+                        <img src="more.png" width="17px">&nbsp;C
+                    </button>
+                    <div class="collapse" id="athical-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Updates</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Reports</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- c++ part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#athical-collapse" aria-expanded="true">
+                        <img src="more.png" width="17px">&nbsp;C++
+                    </button>
+                    <div class="collapse" id="athical-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Updates</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Reports</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- toggle icon -->
+        <div class="container row d-md-none">
+            <h2 class="col" style="margin: 10px;">Sponzeall</h2>
+            <a class="col-2" data-bs-toggle="offcanvas" href="#offcanvasWithBothOptions" role="button"
+                aria-controls="offcanvasWithBothOptionsLabel">
+                <img id="lines" src="menu.png">
+            </a>
+        </div>
+
+        <!-- popup slider -->
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel" data-bs-theme="dark" style="overflow: scroll;">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><img src="sponzeall.png" height="25px"
+                        width="180px"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <ul class="list-unstyled ps-0" data-bs-theme="dark">
+
+                <!-- java part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                        <img src="more.png" width="17px">&nbsp;JAVA
+                    </button>
+                    <div class="collapse" id="home-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-4">
+
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Introduction</a>
+                            </li>
+
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded btn btn-toggle d-inline-flex align-items-center rounded border-0"
+                                    data-bs-toggle="#order-collapse" data-bs-target="#dashboard-collapse"
+                                    aria-expanded="false">Operators</a>
+                                <div class="collapse1" id="order-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-4">
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Arithmetic
+                                                operator</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Logical
+                                                operator</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Turnary
+                                                operator</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">mathematical
+                                                operator</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Bitwise
+                                                operator</a></li>
+                                    </ul>
+                                </div>
+                            </li><br>
+
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded btn btn-toggle d-inline-flex align-items-center rounded border-0"
+                                    data-bs-toggle="#order-collapse" data-bs-target="#dashboard-collapse"
+                                    aria-expanded="false">Loops</a>
+                                <div class="collapse1" id="order-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-4">
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">for
+                                                loop</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">do
+                                                while loop</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">for
+                                                each loop</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">nasted
+                                                for loop</a></li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded"></a>while
+                                            loop</li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">switch
+                                                case</a></li>
+                                    </ul>
+                                </div>
+                            </li><br>
+
+                            <!-- bootstrap -->
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded btn btn-toggle d-inline-flex align-items-center rounded border-0"
+                                    data-bs-toggle="#order-collapse" data-bs-target="#dashboard-collapse"
+                                    aria-expanded="false">Classes</a>
+                                <div class="collapse1" id="order-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-4">
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">creating
+                                                class</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">extending
+                                                class</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">implementing
+                                                class</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">class
+                                                types</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Forms</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li><br>
+
+                            <!-- exception -->
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded btn btn-toggle d-inline-flex align-items-center rounded border-0"
+                                    data-bs-toggle="#order-collapse" data-bs-target="#dashboard-collapse"
+                                    aria-expanded="false">Exceptions</a>
+                                <div class="collapse1" id="order-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-4">
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">types
+                                                of exception</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">exception
+                                                handling</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">examples</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li><br>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- python part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                        <img src="more.png" width="17px">&nbsp;Python
+                    </button>
+                    <div class="collapse" id="dashboard-collapse" style="">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded btn btn-toggle d-inline-flex align-items-center rounded border-0"
+                                    data-bs-toggle="#order-collapse" data-bs-target="#dashboard-collapse"
+                                    aria-expanded="false">OOPs concept</a>
+                                <div class="collapse1" id="order-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">classes</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">examples</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Shipped</a>
+                                        </li>
+                                        <li><a href="#"
+                                                class="link-body-emphasis d-inline-flex text-decoration-none rounded">Returned</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Monthly</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Annually</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- php part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                        <img src="more.png" width="17px">&nbsp;PHP
+                    </button>
+                    <div class="collapse" id="orders-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">New</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Processed</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Shipped</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Returned</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- javascript part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#aad-collapse" aria-expanded="true">
+                        <img src="more.png" width="17px">&nbsp;JavaScript
+                    </button>
+                    <div class="collapse" id="aad-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Updates</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Reports</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- kotlin part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#ios-collapse" aria-expanded="true">
+                        <img src="more.png" width="17px">&nbsp;Kotlin
+                    </button>
+                    <div class="collapse" id="ios-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Updates</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Reports</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- HTML part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#athical-collapse" aria-expanded="true">
+                        <img src="more.png" width="17px">&nbsp;HTML
+                    </button>
+                    <div class="collapse" id="athical-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Updates</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Reports</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- CSS part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#athical-collapse" aria-expanded="true">
+                        <img src="more.png" width="17px">&nbsp;CSS
+                    </button>
+                    <div class="collapse" id="athical-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Updates</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Reports</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- ruby part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#athical-collapse" aria-expanded="true">
+                        <img src="more.png" width="17px">&nbsp;Ruby
+                    </button>
+                    <div class="collapse" id="athical-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Updates</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Reports</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- c part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#athical-collapse" aria-expanded="true">
+                        <img src="more.png" width="17px">&nbsp;C
+                    </button>
+                    <div class="collapse" id="athical-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Updates</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Reports</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- c++ part -->
+                <li class="mb-1">
+                    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#athical-collapse" aria-expanded="true">
+                        <img src="more.png" width="17px">&nbsp;C++
+                    </button>
+                    <div class="collapse" id="athical-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-5">
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Updates</a>
+                            </li>
+                            <li><a href="#"
+                                    class="link-body-emphasis d-inline-flex text-decoration-none rounded">Reports</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- heading -->
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="col">
+            <div class="d-flex align-items-center p-3 my-3 text-white bg-purple rounded shadow-sm"
+                style="background-color: rgb(2, 2, 48);">
+                <img class="me-3" src="sponzeall_icon.png" alt="" width="48" height="38">
+                <div class="lh-1">
+                    <h1 class="h3 mb-0 text-white lh-1">Sponzeall</h1><br>
+                    <small>Online Learning Platform</small>
+                </div>
+            </div>
+            <div class="my-3 p-3 bg-body rounded shadow-sm">
+                <h6 class="border-bottom pb-2 mb-0">HTML Notes (PDF Format)</h6>
+                <div class="d-flex text-body-secondary pt-3">
+                    <img src="pdf.png" class="bd-placeholder-img flex-shrink-0 me-2 rounded" height="32px">
+                    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                        <div class="d-flex justify-content-between">
+                            <strong class="text-gray-dark">Introduction</strong>
+                            <a href="#">Download</a>
+                        </div>
+                        <span class="d-block">2.34MB introducton.pdf</span>
+                    </div>
+                </div>
+                <div class="d-flex text-body-secondary pt-3">
+                    <img src="pdf.png" class="bd-placeholder-img flex-shrink-0 me-2 rounded" height="32px">
+                    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                        <div class="d-flex justify-content-between">
+                            <strong class="text-gray-dark">Simple Structure</strong>
+                            <a href="#">Download</a>
+                        </div>
+                        <span class="d-block">4.54MB structure.pdf</span>
+                    </div>
+                </div>
+                <div class="d-flex text-body-secondary pt-3">
+                    <img src="pdf.png" class="bd-placeholder-img flex-shrink-0 me-2 rounded" height="32px">
+                    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                        <div class="d-flex justify-content-between">
+                            <strong class="text-gray-dark">Heading tags</strong>
+                            <a href="#">Download</a>
+                        </div>
+                        <span class="d-block">2.07MB heading.pdf</span>
+                    </div>
+                </div>
+                <div class="d-flex text-body-secondary pt-3">
+                    <img src="pdf.png" class="bd-placeholder-img flex-shrink-0 me-2 rounded" height="32px">
+                    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                        <div class="d-flex justify-content-between">
+                            <strong class="text-gray-dark">Upload Images</strong>
+                            <a href="#">Download</a>
+                        </div>
+                        <span class="d-block">12.30MB images.pdf</span>
+                    </div>
+                </div>
+                <div class="d-flex text-body-secondary pt-3">
+                    <img src="pdf.png" class="bd-placeholder-img flex-shrink-0 me-2 rounded" height="32px">
+                    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                        <div class="d-flex justify-content-between">
+                            <strong class="text-gray-dark">Text Formating</strong>
+                            <a href="#">Download</a>
+                        </div>
+                        <span class="d-block">6.394MB text.pdf</span>
+                    </div>
+                </div>
+                <div class="d-flex text-body-secondary pt-3">
+                    <img src="pdf.png" class="bd-placeholder-img flex-shrink-0 me-2 rounded" height="32px">
+                    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                        <div class="d-flex justify-content-between">
+                            <strong class="text-gray-dark">Basic Tags</strong>
+                            <a href="#">Download</a>
+                        </div>
+                        <span class="d-block">9.34MB basic.pdf</span>
+                    </div>
+                </div>
+                <div class="d-flex text-body-secondary pt-3">
+                    <img src="pdf.png" class="bd-placeholder-img flex-shrink-0 me-2 rounded" height="32px">
+                    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+                        <div class="d-flex justify-content-between">
+                            <strong class="text-gray-dark">Forms</strong>
+                            <a href="#">Download</a>
+                        </div>
+                        <span class="d-block">17.14MB forms.pdf</span>
+                    </div>
+                </div>
+                <small class="d-block text-end mt-3">
+                    <a href="#">Download All</a>
+                </small>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

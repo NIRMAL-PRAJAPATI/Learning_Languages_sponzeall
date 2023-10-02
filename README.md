@@ -1,2 +1,2 @@
-# Learning_Languages_sponzeall
+# Learning_Languages_sponzeall.github.io
 only frontend with bootstrap
